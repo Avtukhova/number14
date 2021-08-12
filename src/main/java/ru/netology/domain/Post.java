@@ -15,7 +15,7 @@ public class Post {
 
     }
 
-    public String getIageUrl() {
+    public String getImageUrl() {
         return imageUrl;
 
     }
@@ -30,13 +30,13 @@ public class Post {
 
     }
 
-    public String getBodyPost() {
-        return bodyPost;
+    public String getBodyText() {
+        return bodyText;
 
     }
 
     public void getCommentsInfo() {
-        return commentsInfo;
+        this.commentsInfo = commentsInfo;
     }
 
     public void setCommentsInfo(CommentsInfo commentsInfo) {
@@ -45,7 +45,7 @@ public class Post {
 
 
     public void getLikesInfo() {
-        return likesInfo;
+        this.likesInfo = likesInfo;
     }
 
     public void setLikesInfo(LikesInfo likesInfo) {
@@ -53,7 +53,7 @@ public class Post {
     }
 
     public void getViewsInfo() {
-        return viewsInfo;
+        this.viewsInfo = viewsInfo;
     }
 
     public void setViewsInfo(ViewsInfo viewsInfo) {
@@ -65,7 +65,7 @@ public class Post {
 
 
 
-}
 
 
-}
+
+
