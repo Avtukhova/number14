@@ -9,6 +9,7 @@ public class Post {
     private CommentsInfo commentsInfo; //комментарии
     private LikesInfo likesInfo; //лайки
     private ViewsInfo viewsInfo; //просмотры
+    private RepostsInfo repostsInfo; //репосты
     private int idOwner;  //идентификатор владельца стены
     private int idReplyOwner; //идентификатор ответа владельца стены
     private int idReplyPost; //идентификатор ответа на пост
