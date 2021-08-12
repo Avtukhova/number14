@@ -19,6 +19,27 @@ public class Post {
 
     }
 
+    public void getIdOwner() {
+        this.idOwner = idOwner;
+
+    }
+
+    public void getIdReplyOwner() {
+        this.idReplyOwner = idReplyOwner;
+
+    }
+
+
+    public void getIdReplyPost() {
+        this.idReplyPost = idReplyPost;
+
+    }
+
+    public void getFriendsOnly() {
+        this.friendsOnly = friendsOnly;
+
+    }
+
     public String getImageUrl() {
         return imageUrl;
 

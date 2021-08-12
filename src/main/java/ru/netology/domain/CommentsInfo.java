@@ -6,6 +6,7 @@ public class CommentsInfo {
     private int dateComment; //дата комментария
     private String textComment; //текст комментария
     private boolean canClose; //возможность закрыть пост от комментариев
+    private boolean canOpen; //возможность открыть пост для комментариев
 
 
     public int getCount() {
@@ -21,11 +22,11 @@ public class CommentsInfo {
 
     }
 
-    public int getdateComment() {
+    public int getDateComment() {
         return dateComment;
     }
 
-    public void setdateComment(int dateComment) {
+    public void setDateComment(int dateComment) {
         this.dateComment = dateComment;
     }
 
@@ -40,6 +41,10 @@ public class CommentsInfo {
 
     public boolean isCanClose() {
         return canClose;
+    }
+
+    public boolean isCanOpen() {
+        return canOpen;
     }
 
     public void setCanClose(boolean canClose) {
