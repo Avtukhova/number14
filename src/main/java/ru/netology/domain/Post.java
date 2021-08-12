@@ -86,6 +86,14 @@ public class Post {
         this.viewsInfo = viewsInfo;
     }
 
+    public void getRepostsInfo() {
+        this.repostsInfo = repostsInfo;
+    }
+
+    public void setRepostsInfo(RepostsInfo repostsInfo) {
+        this.repostsInfo = repostsInfo;
+    }
+
 }
 
 
