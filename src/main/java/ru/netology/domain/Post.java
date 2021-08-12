@@ -9,6 +9,10 @@ public class Post {
     private CommentsInfo commentsInfo; //комментарии
     private LikesInfo likesInfo; //лайки
     private ViewsInfo viewsInfo; //просмотры
+    private int idOwner;  //идентификатор владельца стены
+    private int idReplyOwner; //идентификатор ответа владельца стены
+    private int idReplyPost; //идентификатор ответа на пост
+    private int friendsOnly; //только для друзей
 
     public void getId() {
         this.id = id;
