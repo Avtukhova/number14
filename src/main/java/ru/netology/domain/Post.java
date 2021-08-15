@@ -15,6 +15,7 @@ public class Post {
     private int idReplyPost; //идентификатор ответа на пост
     private int friendsOnly; //только для друзей
 
+
     public void getId() {
         this.id = id;
 
