@@ -7,7 +7,7 @@ public class LikesInfo {
     private boolean canPublishIdUser; //возможность для текущего пользователя сделать репост
 
 
-    public int getCountlikes() {
+    public int getCountLikes() {
         return countLikes;
     }
 
